@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pretty-fizz-buzz/static/css/main.9cf0d2ce.chunk.css",
+    "main.css": "/pretty-fizz-buzz/static/css/main.ac999a7e.chunk.css",
     "main.js": "/pretty-fizz-buzz/static/js/main.5cc45960.chunk.js",
     "main.js.map": "/pretty-fizz-buzz/static/js/main.5cc45960.chunk.js.map",
     "runtime-main.js": "/pretty-fizz-buzz/static/js/runtime-main.c48a2170.js",
@@ -8,14 +8,14 @@
     "static/js/2.fb563cc1.chunk.js": "/pretty-fizz-buzz/static/js/2.fb563cc1.chunk.js",
     "static/js/2.fb563cc1.chunk.js.map": "/pretty-fizz-buzz/static/js/2.fb563cc1.chunk.js.map",
     "index.html": "/pretty-fizz-buzz/index.html",
-    "precache-manifest.0dd40f4aac4d1e189e2ea811b54be94e.js": "/pretty-fizz-buzz/precache-manifest.0dd40f4aac4d1e189e2ea811b54be94e.js",
+    "precache-manifest.fe8ebb752d3543238c5e0c6fc4434a90.js": "/pretty-fizz-buzz/precache-manifest.fe8ebb752d3543238c5e0c6fc4434a90.js",
     "service-worker.js": "/pretty-fizz-buzz/service-worker.js",
-    "static/css/main.9cf0d2ce.chunk.css.map": "/pretty-fizz-buzz/static/css/main.9cf0d2ce.chunk.css.map"
+    "static/css/main.ac999a7e.chunk.css.map": "/pretty-fizz-buzz/static/css/main.ac999a7e.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.c48a2170.js",
     "static/js/2.fb563cc1.chunk.js",
-    "static/css/main.9cf0d2ce.chunk.css",
+    "static/css/main.ac999a7e.chunk.css",
     "static/js/main.5cc45960.chunk.js"
   ]
 }
