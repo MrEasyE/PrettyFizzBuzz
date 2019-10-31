@@ -1,0 +1,157 @@
+
+/* Font's we're loading from Google
+
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+
+*/
+
+/* Colors we're using
+
+  background 1: #9B1F5B;
+  background 2: #7ECCE6;
+  accent 1: #DC527C;
+  accent 2: #869CC0;
+
+*/
+
+body {
+  background-image: linear-gradient(to bottom right, #9B1F5B, #7ECCE6);
+}
+
+.App, html, body {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 100%;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+.App-header {
+  margin: auto;
+  width: 80%;
+  background-image: none;
+  display: flex;
+  justify-content: center;
+}
+
+.App-body {
+  width: 80%;
+  background-image: none;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.title {
+  font-size: xx-large;
+}
+
+h1 {
+  font-size: xx-large;
+  color: #FFF;
+  text-align: center;
+}
+
+p {
+  color: #E7BBCB;
+  font-size: larger;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #E7BBCB;
+}
+
+a:hover {
+  color: #7ECCE6;
+}
+
+.numField {
+  width: 100%;
+}
+
+.numberInput {
+  display: flex;
+  border: none;
+  font-size: xx-large;
+  text-align: center;
+  padding: .5em 0 .5em 0;
+  border-radius: .5em;
+  color: #9B1F5B;
+  justify-content: center;
+  width: 100%;
+}
+
+.startButton {
+  font-size: xx-large;
+  margin: .25em 0 .25em 0;
+  border-radius: .5em;
+  padding: .5em;
+  background-color: #DC527C;
+  color: #fff;
+  border: none;
+  box-shadow: .1em .1em .3em rgba(0, 0, 0, 0.425);
+  width: 100%;
+}
+
+.startButton:hover {
+  background-color: rgb(197, 64, 104);
+}
+
+table {
+  display: flexbox;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+th {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: large;
+  color: #fff;
+
+}
+
+tr {
+  color: #fff;
+}
+
+.Fizz, .Buzz, .FizzBuzz {
+  background-color: #9B1F5B;
+}
+
+.FizzBuzz {
+  animation: shake 0.5s;
+}
+
+.FizzBuzz:hover {
+  animation: shake 0.5s;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .numberInput {
+    font-size:large;
+  }
+
+  h1 {
+    font-size: larger;
+  }
+}
