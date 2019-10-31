@@ -17,6 +17,8 @@
 
 body {
   background-image: linear-gradient(to bottom right, #9B1F5B, #7ECCE6);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .App, html, body {
